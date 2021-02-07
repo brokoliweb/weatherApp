@@ -1,0 +1,49 @@
+#pin {
+  cursor: pointer;
+}
+
+#searchBox-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: orange;
+}
+
+#result-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(102, 102, 180);
+  color: white;
+  text-align: center;
+}
+
+.celcius {
+  background-color: rgb(96, 168, 190);
+  padding: 0.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.fahrenheit {
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+#error {
+  background-color: red;
+  color: white;
+}

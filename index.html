@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather APP</title>
+  </head>
+  <body>
+    <div id="searchBox-wrapper">
+      <label id="pin" for="search-box">📍</label>
+      <input
+        type="text"
+        placeholder="Enter location"
+        id="search-box"
+        name="search-box"
+      />
+      <input id="submit" name="submit" type="submit" />
+    </div>
+    <div id="result-wrapper">
+      <h2>Dalyan Weather</h2>
+      <img src="#" id="weather-icon" />
+      <p id="temp"></p>
+      <p id="real-feel"></p>
+
+      <p id="error"></p>
+      <br />
+      <div>
+        <span class="celcius">C</span> <span class="fahrenheit">F</span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+  <footer>Powered by openweather.com</footer>
+</html>
