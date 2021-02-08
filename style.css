@@ -1,5 +1,9 @@
-#pin {
-  cursor: pointer;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #searchBox-wrapper {
